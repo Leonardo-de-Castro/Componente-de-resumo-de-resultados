@@ -1,10 +1,59 @@
 body {
+    height: 100vh;
+    display: flex;
     font-family:'Hanken Grotesk', sans-serif;
-    background-color: antiquewhite;
-    
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 614px;
+    height: 426px;
+    display: flex;
+
 }
 
+.container h3 {
+    font-size: 22px;
+}
 
+.container .side {
+    width: 50%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
-.atribuicao { font-size: 11px; text-align: center; }
-.atribuicao a { color: hsl(228, 45%, 44%); }
+.container .side:first-child {
+    border-radius: 28px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: #ffff;
+    padding-top: 32px;
+}
+
+.container .circle {
+    width: 166px;
+    height: 166px;
+    border-radius: 100%;
+    background-image: linear-gradient(#00000025, #00000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.container .circle h1 {
+    font-size: 50px;
+}
+
+.container .circle p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container .side:first-child p:last-of-type {
+    padding: 0 50px;
+    text-align: center;
+    margin-top: 10px;
+}

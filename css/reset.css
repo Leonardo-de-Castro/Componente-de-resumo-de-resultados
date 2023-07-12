@@ -1,5 +1,11 @@
 * {
 margin: 0px;
 padding: 0px;
-
+border: 0px;
+list-style: none;
+text-decoration: none;
+outline: none;
+box-sizing: border-box;
+font-family:'Hanken Grotesk', sans-serif;
 }
+
